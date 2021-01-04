@@ -1,0 +1,99 @@
+.header-color{
+  background: #606c88;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid{
+  background-color:#DBDBDB;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* Landing page css */
+
+img {
+  margin-top: 60px;
+  border-radius: 50%;
+}
+
+
+
+
+.banner-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color:#606c88 ;
+  
+}
+
+.banner-text h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color:#606c88 ;
+  
+}
+
+.banner-text hr {
+  border-top: 1px solid #606c88 ;
+  width: 90%;
+  margin: auto;
+}
+
+.banner-text p {
+  color:#606c88 ;
+  font-size: 20px;
+  padding: 0.2em;
+  
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: auto;
+}
+
+.social-links i {
+  color:#606c88 ;
+  font-size: 4em;
+  padding: 8px;
+  
+}
+/* projects page*/
+
+.projects-grid{
+  padding: 20px;
+}
+
+.projects-grid a{
+
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #606c88;
+  text-align: center;
+  margin: 5px;
+  
+}
+
+/* resume page*/
+.resume-details i{
+  color:#606c88 ;
+  font-size: 1.5em;
+  
+
+}
+.resume-right-col{
+  background-color: #606c88;
+  color: #fff;
+  
+  padding: 2em;
+}
+
