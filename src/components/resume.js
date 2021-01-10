@@ -14,7 +14,7 @@ class Resume extends Component {
             <h3 style={{color: '#606c88'}}>Sylvie UWAMARIYA</h3>
             <h4 style={{color: '#606c88'}}>Software Developer</h4>
             <hr style={{borderTop: '2px solid  #606c88', width: '50%'}}/>
-            <p> I am a young lady 
+            <p> I'm a Software Developer and IT Data Manager with over 3 years of professional experience in software development with various technologies such as React, NodeJS, Django, Flask, etc...
 
             </p>
             <hr style={{borderTop: '2px solid  #606c88', width: '50%'}}/>
@@ -86,9 +86,7 @@ class Resume extends Component {
   startYear={2020}
   endYear={2021}
   jobName="Software Developer at SY Web Wise"
-  jobDescription="Developed user interface by using the React JS, 
-  Used React-Router to turn application into Single Page Application, Used Object Oriented Programming concepts to develop UI components that could be reused across the Web Application
-  "
+  jobDescription="I hava developed  the SY Web Wise company website with React and React Router Hooks "
   />
 
   <Experience

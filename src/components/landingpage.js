@@ -19,7 +19,7 @@ class Landing extends Component {
 
                      
 
-<p> Python | Django | Flask | JavaScript | NodeJS | React | PostgreSQL </p>
+
 
 <div className="social-links">
 

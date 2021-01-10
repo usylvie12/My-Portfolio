@@ -16,7 +16,7 @@ class Projects extends Component {
                      BuildForSDG Challenge 2020 project (web application)
                     </CardText>  
                 <CardActions border>
-                <a href="https://www.linkedin.com/in/sylvie-uwamariya/" rel="noopener noreferrer" target="_blank">GitHub</a>
+                <a href="https://github.com/usylvie12" rel="noopener noreferrer" target="_blank">GitHub</a>
                 <a href="https://patient-medical-test.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a>
                 
                  
@@ -30,15 +30,33 @@ class Projects extends Component {
               )
           }else if(this.state.activeTab === 1){
             return(
+                
                 <Card shadow={0} style={{minwidth: '600px', margin: 'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: '#D6A4A4'}}>SY Web Wise</CardTitle>
                 <CardText>
-                SY Web Wise company web application
+                SY Web Wise company website
 
                     </CardText>  
                 <CardActions border>
-                <a href="https://www.linkedin.com/in/sylvie-uwamariya/" rel="noopener noreferrer" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/sylvie-uwamariya/" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                <a href="https://github.com/usylvie12/Sy-Web-Wise" rel="noopener noreferrer" target="_blank">GitHub</a>
+                <a href="https://github.com/usylvie12" rel="noopener noreferrer" target="_blank">Live Demo</a>
+                </CardActions>
+                
+            </Card> 
+
+            
+            )
+        }else if(this.state.activeTab === 2){
+            return(
+                <Card shadow={0} style={{minwidth: '600px', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: '#D6A4A4'}}>Budget App</CardTitle>
+                <CardText>
+                
+
+                    </CardText>  
+                <CardActions border>
+                <a href="https://github.com/usylvie12/Budget-App" rel="noopener noreferrer" target="_blank">GitHub</a>
+                <a href="https://github.com/usylvie12" rel="noopener noreferrer" target="_blank">Live Demo</a>
                 </CardActions>
                 
             </Card> 
